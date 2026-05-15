@@ -7,7 +7,7 @@ pipeline {
         stage('Nome') {    // uma etapa específica
             steps {        // ações dentro da etapa
                 sh '''
-                ls -la /var/jenkins_home
+                ls -la /var/jenkins_home/secrets/
                 '''
             }
         }
